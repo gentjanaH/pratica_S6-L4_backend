@@ -17,6 +17,8 @@ public class ConfigClass {
              @Value("${cloudinary.apikey}") String apiKey,
              @Value("${cloudinary.secret}") String apiSecret){
 
+
+
         Map<String, String> configuration=new HashMap<>();
         configuration.put("cloud_name", cloudName);
         configuration.put("api_key", apiKey);
